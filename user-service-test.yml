@@ -1,20 +1,11 @@
 spring:
-  zipkin:
-    base-url: http://m2rs-zipkin:9411
-    enabled: true
-  sleuth:
-    sampler:
-      probability: 1.0
-    jdbc:
-      p6spy:
-        enable-logging: true
   servlet:
     multipart:
       max-file-size: 100MB
       max-request-size: 100MB
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://192.168.1.45:13306/m2rs_db
+    url: jdbc:mariadb://localhost:13306/m2rs_db
     username: m2rs
     password: '{cipher}AQClIYSAl/HoYlFU7ZzzdFkQUPyRd6gB/7RoqzKflQHulf0tsepXbuTkr0hl1gy96iPb5uVZj0xDP8R3Fh+spTt/M5evgZyXQDwbkus+SNZyzlhmd+Fzf3E81SDbKJMvQfMOev4RN/9oont4BLLr8O+jepH7Jnu4BcaXu0L/RmUvmRRgJOa04ireOeeCPoWDnpxzElPCqdzTpSLGHzQCl3rjrnkX0vjN4ITmLY6DhFieipFYvJvX/RubbDjWiJCxtNGxbAC0+8x+CBY2FXTsHQluQtkOY7DwD49O4uUN5OM4zfhGyzhKtXVoNwwVT057qJhaDTLPH3bqYt8zHX7T+WddgRDfJ58iat+c9/DOmEDG9JSGaRU8j0iNKgSqqZne7Lk='
   jpa:
@@ -24,7 +15,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+  flyway:
+    enabled: false
 
 # user
 user:

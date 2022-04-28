@@ -1,13 +1,4 @@
 spring:
-  zipkin:
-    base-url: http://m2rs-zipkin:9411
-    enabled: true
-  sleuth:
-    sampler:
-      probability: 1.0
-    jdbc:
-      p6spy:
-        enable-logging: true
   servlet:
     multipart:
       max-file-size: 100MB
@@ -24,7 +15,6 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
 
 # user
 user:

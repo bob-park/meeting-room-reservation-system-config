@@ -1,0 +1,7 @@
+gateway:
+  ip: 172.18.0.4
+
+jwt:
+  expired: 1d
+  client-secret: '{cipher}AQBje0kVfyY3KuopzG/9Niw+3cbb+O+e6ZXDLI3+wQHExn5GTWAKkM7UZ1gcSmQH/47baKR0CC56/U/I8ODvjHqqWzgKT9DY8xqeCflL2XK4Mh6DhgLeckXnbJHf45fAuP+vwlN8LsZgafs+S5EulJKzWTNgnzNMJNvEhHT2zCKS9RdHLSYdH6yrXAAMqBAWNdkrjcRhFHEwSMXy5hSP1dLX0ikpTUawRT8VCuiccA0lmGgC/WRY0b5CgSucmQd8cecU1qYu9Nl0WnwMg0eTLOyNYONvfi2Ih1Lv2FtRk0a1YCh2dLKhyKHhEGGNcHnsO7J+/HoTfJ2MZBBjd8mvyCCbp3SPUhdA1mmhAfkNLyPSNheCkLtnLm7tbxsUgVnFi7I='
+  issuer: issuer

@@ -8,10 +8,6 @@ spring:
     jdbc:
       p6spy:
         enable-logging: true
-  servlet:
-    multipart:
-      max-file-size: 100MB
-      max-request-size: 100MB
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://192.168.1.45:13306/m2rs_db
@@ -24,9 +20,3 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
-
-# user
-user:
-  company:
-    logo-dir: /Users/hwpark/Documents/hwpark-workspace/m2rs/logo
