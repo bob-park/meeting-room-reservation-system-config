@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://192.168.1.45:13306/m2rs_db
+    url: jdbc:mariadb://m2rs-db-service-domain:3306/m2rs_db
     username: m2rs
-    password: '{cipher}AQClIYSAl/HoYlFU7ZzzdFkQUPyRd6gB/7RoqzKflQHulf0tsepXbuTkr0hl1gy96iPb5uVZj0xDP8R3Fh+spTt/M5evgZyXQDwbkus+SNZyzlhmd+Fzf3E81SDbKJMvQfMOev4RN/9oont4BLLr8O+jepH7Jnu4BcaXu0L/RmUvmRRgJOa04ireOeeCPoWDnpxzElPCqdzTpSLGHzQCl3rjrnkX0vjN4ITmLY6DhFieipFYvJvX/RubbDjWiJCxtNGxbAC0+8x+CBY2FXTsHQluQtkOY7DwD49O4uUN5OM4zfhGyzhKtXVoNwwVT057qJhaDTLPH3bqYt8zHX7T+WddgRDfJ58iat+c9/DOmEDG9JSGaRU8j0iNKgSqqZne7Lk='
+    password: '{cipher}AQABRZqIYkH+ctKu4jcpV/SMYgaah2LvQm3MFFjqLsvT0HWi2jLuKLiGUTikqlGUS3ZnsHHBvNaqUYxInYrtPo2rJ9EOOpMIRfsDkkOpFA4T1Q2gj+i6oiS4FAt7oesbbnrBZ8U2hf7yUKHKiCYsqXjPyS/tmP5wAAJBft9/m3aCAwUuCl9fJE4rwyQB/zgySBbrTO+e9ESty9H8/wgCpumow+PmFevlLcYjOy67DoZyj1fyIlSHwzG73OgCOdxIU07sMu0RWxa/NBrFfyk4l10S+qnJf6TmuoSjdcy2OQT/4Df4ZYpxwHAGv4jeOxeMhEyAJFOxw1el/H/FXmluYMbb7oxeBi3ZrsSEicQ2rYFdeNahTW0ZhRT+fJXwzgB3E/E='
   flyway:
     enabled: true
     baseline-on-migrate: true
